@@ -24,7 +24,7 @@ This API allows customers to generate and retrieve invoices for user events such
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/ahmedfarghaly1/invoicing-api.git
+git clone https://github.com/ahmedfarghaly1/invoicing-task.git
 cd laravel-invoicing-api
 ```
 2. Install Dependencies
@@ -48,11 +48,6 @@ php artisan key:generate
 php artisan migrate --seed
 ````
 
-### 4. Generate Key & Migrate Database
-```bash
-php artisan key:generate
-php artisan migrate --seed
-````
 ### 5. Start Application
 ```bash
 php artisan serve
